@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder customClass="HomeVC" customModule="HomeVC" customModuleProvider="target" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+<connections>
+<outlet destination="Chz-PH-jcu" id="SY3-vN-4V9" property="view"/>
+<outlet destination="orI-G2-21x" id="s4o-Mw-9EK" property="img1"/>
+<outlet destination="p5U-gs-596" id="dfO-CQ-noo" property="lblAdalah"/>
+<outlet destination="5aO-Q7-6FB" id="vGI-8R-Cz2" property="lblAlcanasatre"/>
+<outlet destination="EaK-w1-5Ut" id="wai-uu-nSa" property="lblJoined6Month"/>
+<outlet destination="UHf-Nh-RrO" id="mFt-i1-TF0" property="tbl2"/>
+<outlet destination="Hvf-ur-B8C" id="enA-ge-Vf4" property="view3"/>
+<outlet destination="3aY-rw-iK1" id="wPK-ID-Duc" property="view4"/>
+</connections>
+</placeholder>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Chz-PH-jcu">
+<rect height="667.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="79.0" firstAttribute="top" firstItem="orI-G2-21x" id="Fpl-Ki-QtC" secondAttribute="top" secondItem="cxX-Gf-px0"/>
+<constraint constant="0.0" firstAttribute="centerX" firstItem="orI-G2-21x" id="pi0-Ff-ofR" secondAttribute="centerX" secondItem="Chz-PH-jcu"/>
+<constraint constant="24.0" firstAttribute="leading" firstItem="p5U-gs-596" id="U2j-Bn-rYb" secondAttribute="leading" secondItem="5aO-Q7-6FB"/>
+<constraint constant="-23.77002" firstAttribute="trailing" firstItem="p5U-gs-596" id="WGe-Ev-AY6" secondAttribute="trailing" secondItem="5aO-Q7-6FB"/>
+<constraint constant="14.0" firstAttribute="top" firstItem="p5U-gs-596" id="2qb-lF-Qdd" secondAttribute="bottom" secondItem="orI-G2-21x"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="5aO-Q7-6FB" id="7qn-W7-Dan" secondAttribute="bottom" secondItem="p5U-gs-596"/>
+<constraint constant="-1.519989" firstAttribute="centerX" firstItem="5aO-Q7-6FB" id="aF7-1w-wrF" secondAttribute="centerX" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="width" firstItem="5aO-Q7-6FB" id="1Nb-zN-omJ" multiplier="0.38922668" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint constant="14.0" firstAttribute="top" firstItem="EaK-w1-5Ut" id="451-mf-izZ" secondAttribute="bottom" secondItem="5aO-Q7-6FB"/>
+<constraint constant="-1.5249939" firstAttribute="centerX" firstItem="EaK-w1-5Ut" id="0iJ-sP-Gxa" secondAttribute="centerX" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="width" firstItem="EaK-w1-5Ut" id="Ih4-C7-yCZ" multiplier="0.35384" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint constant="34.0" firstAttribute="leading" firstItem="UHf-Nh-RrO" id="0xg-YF-NW9" secondAttribute="leading" secondItem="Chz-PH-jcu"/>
+<constraint constant="-30.0" firstAttribute="trailing" firstItem="UHf-Nh-RrO" id="740-mB-NtL" secondAttribute="trailing" secondItem="Chz-PH-jcu"/>
+<constraint constant="49.0" firstAttribute="top" firstItem="UHf-Nh-RrO" id="srW-zN-9Qc" secondAttribute="bottom" secondItem="EaK-w1-5Ut"/>
+<constraint constant="-239.0" firstAttribute="bottom" firstItem="UHf-Nh-RrO" id="bqA-d7-piX" secondAttribute="bottom" secondItem="cxX-Gf-px0"/>
+<constraint constant="26.0" firstAttribute="leading" firstItem="Hvf-ur-B8C" id="E8P-vN-2i2" secondAttribute="leading" secondItem="UHf-Nh-RrO"/>
+<constraint constant="15.0" firstAttribute="top" firstItem="Hvf-ur-B8C" id="riT-Nj-Czc" secondAttribute="top" secondItem="UHf-Nh-RrO"/>
+<constraint constant="28.0" firstAttribute="leading" firstItem="3aY-rw-iK1" id="zBi-NM-w0x" secondAttribute="leading" secondItem="UHf-Nh-RrO"/>
+<constraint constant="52.0" firstAttribute="top" firstItem="3aY-rw-iK1" id="5sa-s0-gR2" secondAttribute="bottom" secondItem="Hvf-ur-B8C"/>
+<constraint firstAttribute="width" firstItem="5aO-Q7-6FB" id="ujG-US-yNc" multiplier="0.38922668" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="width" firstItem="EaK-w1-5Ut" id="nCM-fE-sQN" multiplier="0.35384" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="width" firstItem="Hvf-ur-B8C" id="ujX-Tz-OYz" multiplier="0.064" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="width" firstItem="3aY-rw-iK1" id="vLP-tq-Otm" multiplier="0.064" secondAttribute="width" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="orI-G2-21x" id="hr1-sK-DlN" multiplier="0.20839581" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="p5U-gs-596" id="LOf-ER-X7A" multiplier="0.044977512" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="5aO-Q7-6FB" id="DUB-mZ-dId" multiplier="0.04047976" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="EaK-w1-5Ut" id="rf7-GU-rWK" multiplier="0.022488756" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="Hvf-ur-B8C" id="Hiv-DQ-gWd" multiplier="0.03598201" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+<constraint firstAttribute="height" firstItem="3aY-rw-iK1" id="crG-rr-x4B" multiplier="0.03598201" secondAttribute="height" secondItem="Chz-PH-jcu"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="orI-G2-21x" image="img_11_1" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="139.0" key="frame" width="139.0" x="118.0" y="79.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="69"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint firstAttribute="width" firstItem="orI-G2-21x" id="G9t-IE-l7S" multiplier="139.0:139.0" secondAttribute="height" secondItem="orI-G2-21x"/>
+<constraint firstAttribute="width" firstItem="orI-G2-21x" id="XMj-nd-d6k" multiplier="139.0:139.0" secondAttribute="height" secondItem="orI-G2-21x"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="p5U-gs-596" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="30.0" key="frame" width="98.19" x="137.0" y="232.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_adalah"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="5aO-Q7-6FB" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="27.0" key="frame" width="145.96" x="113.0" y="262.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_alcanasatre"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsRegular"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="18"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="EaK-w1-5Ut" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="15.0" key="frame" width="132.69" x="119.63" y="303.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_joined_6_month"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsRegular"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<tableView alwaysBounceVertical="YES" clearsContextBeforeDrawing="NO" clipSubViews="YES" contentMode="scaleToFill" estimatedRowHeight="-1" fixedFrame="YES" id="UHf-Nh-RrO" rowHeight="-1" sectionFooterHeight="28" sectionHeaderHeight="28" separatorStyle="none" style="plain" translatesAutoresizingMaskIntoConstraints="false">
+<rect height="206.0" key="frame" width="311.0" x="34.0" y="367.0"/>
+<connections>
+<outlet destination="-1" id="GQB-V9-qY9" property="dataSource"/>
+<outlet destination="-1" id="NfN-Cs-mcW" property="delegate"/>
+</connections>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+</tableView>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Hvf-ur-B8C" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="24.0" key="frame" width="24.0" x="60.0" y="382.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3aY-rw-iK1" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="24.0" key="frame" width="24.0" x="62.0" y="458.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+</subviews>
+<viewLayoutGuide id="cxX-Gf-px0" key="safeArea"/>
+<point key="canvasLocation" x="0.0" y="0.0"/>
+</view>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<image height="18.0" name="img_2_friends" width="20.0"/>
+<image height="6.0" name="img_stroke_1" width="5.0"/>
+<image height="20.0" name="img_paper" width="17.0"/>
+<image height="6.0" name="img_stroke_1_1" width="5.0"/>
+<image height="20.0" name="img_setting" width="19.0"/>
+<image height="6.0" name="img_stroke_1_2" width="5.0"/>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA700">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+</resources>
+</document>

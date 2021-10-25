@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner"/>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<tableViewCell clearsContextBeforeDrawing="NO" contentMode="scaleToFill" customClass="Group116Cell" customModuleProvider="target" id="j7W-N4-9fC" indentationWidth="10" rowHeight="86" selectionStyle="default">
+<rect height="60.0" key="frame" width="311.0" x="NaN" y="NaN"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<connections>
+<outlet destination="PDa-PT-M9B" id="K5s-ND-PtD" property="lblPersonality"/>
+<outlet destination="9Vp-a6-MJZ" id="yn5-ai-MZa" property="img3"/>
+<outlet destination="dpN-kH-5GC" id="pOT-ZM-YcM" property="img4"/>
+</connections>
+<tableViewCellContentView clipsSubViews="YES" id="02D-EA-ciq" key="contentView" multipleTouchEnabled="YES" opaque="NO" tableViewCell="j7W-N4-9fC">
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="0pg-y0-Ucc" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="24.0" key="frame" width="250.0" x="28.0" y="18.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="PDa-PT-M9B" id="Woz-Hj-j9C" secondAttribute="top" secondItem="0pg-y0-Ucc"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="PDa-PT-M9B" id="7o8-Zv-leQ" secondAttribute="bottom" secondItem="0pg-y0-Ucc"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="9Vp-a6-MJZ" id="iw9-hd-Nat" secondAttribute="leading" secondItem="0pg-y0-Ucc"/>
+<constraint constant="-61.0" firstAttribute="trailing" firstItem="9Vp-a6-MJZ" id="lpH-IX-Kdz" secondAttribute="leading" secondItem="PDa-PT-M9B"/>
+<constraint constant="3.0" firstAttribute="top" firstItem="9Vp-a6-MJZ" id="8tG-1A-pak" secondAttribute="top" secondItem="0pg-y0-Ucc"/>
+<constraint constant="-3.0" firstAttribute="bottom" firstItem="9Vp-a6-MJZ" id="hGQ-ng-dXp" secondAttribute="bottom" secondItem="0pg-y0-Ucc"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="dpN-kH-5GC" id="BO9-dm-T5E" secondAttribute="trailing" secondItem="0pg-y0-Ucc"/>
+<constraint constant="6.0" firstAttribute="top" firstItem="dpN-kH-5GC" id="boa-Si-Uoo" secondAttribute="top" secondItem="9Vp-a6-MJZ"/>
+<constraint firstAttribute="width" firstItem="PDa-PT-M9B" id="rGG-8t-xim" multiplier="0.36" secondAttribute="width" secondItem="0pg-y0-Ucc"/>
+<constraint firstAttribute="height" firstItem="dpN-kH-5GC" id="bmU-YV-OwK" multiplier="0.25" secondAttribute="height" secondItem="0pg-y0-Ucc"/>
+</constraints>
+<subviews>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="PDa-PT-M9B" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="24.0" key="frame" width="90.0" x="81.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Deeporange500"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_personality"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="16"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="9Vp-a6-MJZ" image="img_2_friends" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="18.0" key="frame" width="20.0" x="0.0" y="3.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="9Vp-a6-MJZ" id="nwl-z1-hqv" multiplier="20.0:18.0" secondAttribute="height" secondItem="9Vp-a6-MJZ"/>
+</constraints>
+</imageView>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="dpN-kH-5GC" image="img_stroke_1" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="6.0" key="frame" width="5.0" x="245.0" y="9.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="dpN-kH-5GC" id="UHh-bI-a2c" multiplier="5.0:6.0" secondAttribute="height" secondItem="dpN-kH-5GC"/>
+</constraints>
+</imageView>
+</subviews>
+</view>
+</subviews>
+<constraints>
+<constraint constant="28.0" firstAttribute="leading" firstItem="0pg-y0-Ucc" id="P4X-GM-4ls" secondAttribute="leading" secondItem="02D-EA-ciq"/>
+<constraint constant="-33.0" firstAttribute="trailing" firstItem="0pg-y0-Ucc" id="FTB-lO-Okr" secondAttribute="trailing" secondItem="02D-EA-ciq"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="0pg-y0-Ucc" id="9gv-X4-0fJ" secondAttribute="top" secondItem="02D-EA-ciq"/>
+<constraint constant="-18.0" firstAttribute="bottom" firstItem="0pg-y0-Ucc" id="0BK-Ce-sH5" secondAttribute="bottom" secondItem="02D-EA-ciq"/>
+<constraint firstAttribute="width" firstItem="0pg-y0-Ucc" id="2iY-u3-VUl" multiplier="0.8038585" secondAttribute="width" secondItem="02D-EA-ciq"/>
+<constraint firstAttribute="height" firstItem="0pg-y0-Ucc" id="bCd-yI-yem" multiplier="0.4" secondAttribute="height" secondItem="02D-EA-ciq"/>
+</constraints>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="string" type="id"/>
+</userDefinedRuntimeAttributes>
+<color key="backgroundColor" name="Deeporange5005e"/>
+</tableViewCellContentView>
+</tableViewCell>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Deeporange5005e">
+<color alpha="0.36862746" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+<namedColor name="Deeporange500">
+<color alpha="1.0" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+</resources>
+</document>

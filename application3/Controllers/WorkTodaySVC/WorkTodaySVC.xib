@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder customClass="WorkTodaySVC" customModule="WorkTodaySVC" customModuleProvider="target" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+<connections>
+<outlet destination="d35-Pf-tBP" id="iJk-9K-00p" property="view"/>
+<outlet destination="GBN-p5-uOW" id="q26-Ig-UEF" property="img3"/>
+<outlet destination="E4J-6A-UO9" id="Hlt-xs-sII" property="lblWorkTodayS"/>
+<outlet destination="Al3-km-ReW" id="wzV-Tj-iZc" property="lblWorkTodayS1"/>
+<outlet destination="MhG-fk-EqP" id="Y0s-kU-jT0" property="lblMakeYourJobE"/>
+<outlet destination="Hcs-pG-22S" id="ejW-qN-EFU" property="img6"/>
+<outlet destination="dXw-Ck-ARZ" id="I8l-P9-Jcg" property="lblToday"/>
+<outlet destination="FDB-E6-J9W" id="s4l-I6-Vls" property="lblApril"/>
+<outlet destination="1NS-09-ZJR" id="VXl-qV-enz" property="tbl7"/>
+<outlet destination="fJB-SL-aCf" id="voB-d2-cBT" property="btnMakeAWishLis"/>
+</connections>
+</placeholder>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="d35-Pf-tBP">
+<rect height="667.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="EwD-8o-ATh" id="0tX-Zo-Nl3" secondAttribute="top" secondItem="2vr-Xx-F2o"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="EwD-8o-ATh" id="Nxc-Be-ZAR" secondAttribute="trailing" secondItem="d35-Pf-tBP"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="EwD-8o-ATh" id="fcJ-xU-03c" secondAttribute="leading" secondItem="d35-Pf-tBP"/>
+<constraint firstAttribute="height" firstItem="EwD-8o-ATh" id="ueD-QL-oF2" multiplier="0.089955024" secondAttribute="height" secondItem="d35-Pf-tBP"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="OKj-2r-wEq" id="AoS-Hl-LEZ" secondAttribute="leading" secondItem="d35-Pf-tBP"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="OKj-2r-wEq" id="cVG-PA-G1f" secondAttribute="trailing" secondItem="d35-Pf-tBP"/>
+<constraint constant="37.979996" firstAttribute="top" firstItem="OKj-2r-wEq" id="X7i-ra-kyA" secondAttribute="bottom" secondItem="EwD-8o-ATh"/>
+<constraint firstAttribute="height" firstItem="EwD-8o-ATh" id="p5e-ID-YEq" multiplier="0.089955024" secondAttribute="height" secondItem="d35-Pf-tBP"/>
+<constraint firstAttribute="height" firstItem="OKj-2r-wEq" id="TMb-Vn-Nsf" multiplier="0.83958024" secondAttribute="height" secondItem="d35-Pf-tBP"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" customClass="DesignableXibView" customModule="MyTestApp" customModuleProvider="target" fixedFrame="YES" id="EwD-8o-ATh" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="375.0" x="0.0" y="47.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="leading" firstItem="ymA-4B-kQU" id="9RR-w1-Afs" secondAttribute="leading" secondItem="EwD-8o-ATh"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="ymA-4B-kQU" id="0qZ-5a-JtP" secondAttribute="trailing" secondItem="EwD-8o-ATh"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="ymA-4B-kQU" id="ajB-xg-FYY" secondAttribute="top" secondItem="EwD-8o-ATh"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="ymA-4B-kQU" id="Lae-P6-sNY" secondAttribute="bottom" secondItem="EwD-8o-ATh"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ymA-4B-kQU" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<constraints>
+<constraint constant="10.0" firstAttribute="leading" firstItem="GBN-p5-uOW" id="7cF-9T-Bku" secondAttribute="leading" secondItem="ymA-4B-kQU"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="GBN-p5-uOW" id="DTE-Mr-kfH" secondAttribute="top" secondItem="ymA-4B-kQU"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="GBN-p5-uOW" id="YgY-FA-V2Y" secondAttribute="bottom" secondItem="ymA-4B-kQU"/>
+<constraint constant="-41.0" firstAttribute="trailing" firstItem="E4J-6A-UO9" id="Far-NG-wGk" secondAttribute="trailing" secondItem="ymA-4B-kQU"/>
+<constraint constant="15.0" firstAttribute="top" firstItem="E4J-6A-UO9" id="DwT-wi-w39" secondAttribute="top" secondItem="ymA-4B-kQU"/>
+<constraint firstAttribute="width" firstItem="E4J-6A-UO9" id="i3Z-fB-KDJ" multiplier="0.33333334" secondAttribute="width" secondItem="ymA-4B-kQU"/>
+<constraint firstAttribute="height" firstItem="E4J-6A-UO9" id="Bo3-I5-lyD" multiplier="0.45" secondAttribute="height" secondItem="ymA-4B-kQU"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="GBN-p5-uOW" image="img_group_103" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="67.12" x="10.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="GBN-p5-uOW" id="w75-5L-RXk" multiplier="67.12:60.0" secondAttribute="height" secondItem="GBN-p5-uOW"/>
+<constraint firstAttribute="width" firstItem="GBN-p5-uOW" id="alS-Z0-Icv" multiplier="67.12:60.0" secondAttribute="height" secondItem="GBN-p5-uOW"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="E4J-6A-UO9" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="27.0" key="frame" width="125.0" x="209.0" y="15.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="WhiteA700"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_work_today_s"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="18"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+</subviews>
+</view>
+</subviews>
+</view>
+<scrollView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" id="OKj-2r-wEq" multipleTouchEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="560.0" key="frame" width="375.0" x="0.0" y="144.98"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="p9r-mV-S13" id="PGe-Wc-P5N" secondAttribute="top" secondItem="OKj-2r-wEq"/>
+<constraint constant="NaN" firstAttribute="bottom" firstItem="p9r-mV-S13" id="aVI-eT-QhU" secondAttribute="bottom" secondItem="OKj-2r-wEq"/>
+<constraint constant="0.0" firstAttribute="trailing" firstItem="p9r-mV-S13" id="JG2-mK-nTE" secondAttribute="trailing" secondItem="OKj-2r-wEq"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="p9r-mV-S13" id="iF8-0T-qC8" secondAttribute="leading" secondItem="OKj-2r-wEq"/>
+<constraint firstAttribute="width" firstItem="p9r-mV-S13" id="gRR-W4-jX8" multiplier="1" secondAttribute="width" secondItem="OKj-2r-wEq"/>
+<constraint firstAttribute="height" firstItem="p9r-mV-S13" id="1es-8a-HGi" multiplier="1" priority="250" secondAttribute="height" secondItem="OKj-2r-wEq"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="p9r-mV-S13" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="560.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Al3-km-ReW" id="XKv-hl-2Hw" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="-76.0" firstAttribute="trailing" firstItem="Al3-km-ReW" id="g8X-RT-2eR" secondAttribute="trailing" secondItem="p9r-mV-S13"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="Al3-km-ReW" id="E5g-JQ-Nqs" secondAttribute="top" secondItem="p9r-mV-S13"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="MhG-fk-EqP" id="lAW-Mf-Xe4" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="11.7400055" firstAttribute="top" firstItem="MhG-fk-EqP" id="UgC-PP-uAk" secondAttribute="bottom" secondItem="Al3-km-ReW"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="Hcs-pG-22S" id="7LI-MD-Vqj" secondAttribute="trailing" secondItem="p9r-mV-S13"/>
+<constraint constant="79.28" firstAttribute="top" firstItem="Hcs-pG-22S" id="0jz-cy-G4z" secondAttribute="bottom" secondItem="MhG-fk-EqP"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="dXw-Ck-ARZ" id="NJj-ol-gbq" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="4.889984" firstAttribute="top" firstItem="dXw-Ck-ARZ" id="mjn-Oj-2IS" secondAttribute="top" secondItem="Hcs-pG-22S"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="FDB-E6-J9W" id="bJm-0S-8Xx" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="4.9000244" firstAttribute="top" firstItem="FDB-E6-J9W" id="6v7-Jg-GkQ" secondAttribute="bottom" secondItem="dXw-Ck-ARZ"/>
+<constraint constant="-4.8900146" firstAttribute="bottom" firstItem="FDB-E6-J9W" id="7Rn-sN-UKT" secondAttribute="bottom" secondItem="Hcs-pG-22S"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="1NS-09-ZJR" id="JX4-sK-S7G" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="1NS-09-ZJR" id="gGZ-5G-sI3" secondAttribute="trailing" secondItem="p9r-mV-S13"/>
+<constraint constant="59.329987" firstAttribute="top" firstItem="1NS-09-ZJR" id="1Rm-Wd-s3m" secondAttribute="bottom" secondItem="Hcs-pG-22S"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="fJB-SL-aCf" id="MnJ-Zu-8Qb" secondAttribute="leading" secondItem="p9r-mV-S13"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="fJB-SL-aCf" id="miq-AQ-Exc" secondAttribute="trailing" secondItem="p9r-mV-S13"/>
+<constraint constant="69.99005" firstAttribute="top" firstItem="fJB-SL-aCf" id="tyr-Nw-Ise" secondAttribute="bottom" secondItem="1NS-09-ZJR"/>
+<constraint constant="80.0" firstAttribute="bottom" firstItem="p9r-mV-S13" id="pXo-aD-DK6" secondAttribute="bottom" secondItem="fJB-SL-aCf"/>
+<constraint firstAttribute="width" firstItem="MhG-fk-EqP" id="HSU-yh-DH9" multiplier="0.6586667" secondAttribute="width" secondItem="p9r-mV-S13"/>
+<constraint firstAttribute="width" firstItem="dXw-Ck-ARZ" id="6Z9-XB-V4r" multiplier="0.11733333" secondAttribute="width" secondItem="p9r-mV-S13"/>
+<constraint firstAttribute="width" firstItem="FDB-E6-J9W" id="cYS-nz-Ap5" multiplier="0.26666668" secondAttribute="width" secondItem="p9r-mV-S13"/>
+</constraints>
+<subviews>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="Al3-km-ReW" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="37.19" key="frame" width="267.0" x="32.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_work_today_s"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="28"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="37.19" firstAttribute="height" id="3kG-2S-9Yt"/>
+</constraints>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="MhG-fk-EqP" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="19.57" key="frame" width="247.0" x="32.0" y="48.930008"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_make_your_job_e"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="19.57" firstAttribute="height" id="Vdo-bS-GwW"/>
+</constraints>
+</label>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="Hcs-pG-22S" image="img_group_56" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="58.72" key="frame" width="60.0" x="283.0" y="147.78001"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="58.72" firstAttribute="height" id="xLp-2i-mRE"/>
+<constraint firstAttribute="width" firstItem="Hcs-pG-22S" id="zUr-Fa-YnM" multiplier="60.0:58.72" secondAttribute="height" secondItem="Hcs-pG-22S"/>
+<constraint firstAttribute="width" firstItem="Hcs-pG-22S" id="7q7-ln-Fht" multiplier="60.0:58.72" secondAttribute="height" secondItem="Hcs-pG-22S"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="dXw-Ck-ARZ" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.55" key="frame" width="44.0" x="32.0" y="152.67"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Black900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_today"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.55" firstAttribute="height" id="N5k-c6-uD3"/>
+</constraints>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="FDB-E6-J9W" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="23.49" key="frame" width="100.0" x="32.0" y="178.12001"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Black900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_02_april_2021"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="16"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<tableView alwaysBounceVertical="YES" clearsContextBeforeDrawing="NO" clipSubViews="YES" contentMode="scaleToFill" estimatedRowHeight="-1" fixedFrame="YES" id="1NS-09-ZJR" rowHeight="-1" sectionFooterHeight="28" sectionHeaderHeight="28" separatorStyle="none" style="plain" translatesAutoresizingMaskIntoConstraints="false">
+<rect height="114.47998" key="frame" width="311.0" x="32.0" y="265.83002"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="114.47998" firstAttribute="height" id="OgW-Od-XCO"/>
+</constraints>
+<connections>
+<outlet destination="-1" id="uus-sf-iff" property="dataSource"/>
+<outlet destination="-1" id="Jie-Wn-d03" property="delegate"/>
+</connections>
+</tableView>
+<button baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="center" contentMode="left" contentVerticalAlignment="center" fixedFrame="YES" horizontalHuggingPriority="251" id="fJB-SL-aCf" lineBreakMode="tailTruncation" opaque="NO" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="YES" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="450.30005"/>
+<color key="backgroundColor" name="Lightblue400"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="ButtonTitle" type="string" value="k_Msg_make_a_wish_lis"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="16"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="0RT-uR-yms"/>
+</constraints>
+<connections>
+<action destination="-1" eventType="touchUpInside" id="zPp-mv-hcr" selector="btnMakeAWishLis:"/>
+</connections>
+<state key="normal">
+<color key="titleColor" name="WhiteA700"/>
+</state>
+</button>
+</subviews>
+</view>
+</subviews>
+<viewLayoutGuide id="cZK-MP-VWb" key="contentLayoutGuide"/>
+<viewLayoutGuide id="PdH-GQ-RiN" key="frameLayoutGuide"/>
+</scrollView>
+</subviews>
+<viewLayoutGuide id="2vr-Xx-F2o" key="safeArea"/>
+<point key="canvasLocation" x="0.0" y="0.0"/>
+</view>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<image height="60.0" name="img_group_103" width="67.12"/>
+<image height="58.72" name="img_group_56" width="60.0"/>
+<image height="5.73" name="img_arrow__right_5" width="3.0"/>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA700">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+<namedColor name="Black900">
+<color alpha="1.0" blue="0.0" colorSpace="custom" customColorSpace="sRGB" green="0.0" red="0.0"/>
+</namedColor>
+<namedColor name="Lightblue400">
+<color alpha="1.0" blue="0.9882353" colorSpace="custom" customColorSpace="sRGB" green="0.7294118" red="0.12941177"/>
+</namedColor>
+</resources>
+</document>

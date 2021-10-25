@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder customClass="PersonalityVC" customModule="PersonalityVC" customModuleProvider="target" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+<connections>
+<outlet destination="rke-7v-YOe" id="9zK-gk-sNk" property="view"/>
+<outlet destination="irH-87-jX6" id="tqf-MO-ikL" property="img3"/>
+<outlet destination="W5J-qn-enL" id="X0M-IS-iSM" property="lblPersonality"/>
+<outlet destination="2hL-BW-Idn" id="YSs-06-u0b" property="img6"/>
+<outlet destination="NRc-5b-VrM" id="HEz-SB-ldX" property="lblEditPhoto"/>
+<outlet destination="zkZ-ek-6I8" id="XIt-IX-4At" property="lblUsername"/>
+<outlet destination="o1V-Ca-ycE" id="6qe-wO-6X1" property="txt8"/>
+<outlet destination="N8u-hi-TKz" id="ZVg-tF-dzX" property="lblFirstName"/>
+<outlet destination="9Pc-Io-MnJ" id="y7d-Mh-082" property="txt9"/>
+<outlet destination="M4f-to-AHL" id="MLw-iG-vT4" property="lblLastName"/>
+<outlet destination="Kuq-0i-7B4" id="53v-Og-bFe" property="txt10"/>
+<outlet destination="Bk9-M3-YBL" id="ukl-wl-AR8" property="lblHobby"/>
+<outlet destination="Pz4-VF-2YA" id="VUb-hj-123" property="txt11"/>
+<outlet destination="pab-PK-pVe" id="lXF-Vr-4Q3" property="lblDateOfBirth"/>
+<outlet destination="zAC-4h-adO" id="oWB-6B-Q9G" property="txt12"/>
+<outlet destination="7IB-8W-mHS" id="bqY-ec-Quc" property="lblCountry"/>
+<outlet destination="gw6-L1-pCG" id="AX3-5d-LPK" property="txt13"/>
+<outlet destination="g29-Qk-sx1" id="iEW-RI-VRP" property="btnChangeSave"/>
+</connections>
+</placeholder>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rke-7v-YOe">
+<rect height="667.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="jgX-kK-n6M" id="SHp-Bw-ZrL" secondAttribute="top" secondItem="Sp6-aN-Prd"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="jgX-kK-n6M" id="mwb-Lr-gC5" secondAttribute="trailing" secondItem="rke-7v-YOe"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="jgX-kK-n6M" id="0hB-6V-uXA" secondAttribute="leading" secondItem="rke-7v-YOe"/>
+<constraint firstAttribute="height" firstItem="jgX-kK-n6M" id="O7q-bH-am5" multiplier="0.089955024" secondAttribute="height" secondItem="rke-7v-YOe"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="nXj-Un-FNE" id="ndM-gv-0jD" secondAttribute="leading" secondItem="rke-7v-YOe"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="nXj-Un-FNE" id="Mbu-6Z-8SW" secondAttribute="trailing" secondItem="rke-7v-YOe"/>
+<constraint constant="19.0" firstAttribute="top" firstItem="nXj-Un-FNE" id="Dwz-m4-syw" secondAttribute="bottom" secondItem="jgX-kK-n6M"/>
+<constraint firstAttribute="height" firstItem="jgX-kK-n6M" id="B3N-eN-org" multiplier="0.089955024" secondAttribute="height" secondItem="rke-7v-YOe"/>
+<constraint firstAttribute="height" firstItem="nXj-Un-FNE" id="BOm-0s-rZ4" multiplier="0.83208394" secondAttribute="height" secondItem="rke-7v-YOe"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" customClass="DesignableXibView" customModule="MyTestApp" customModuleProvider="target" fixedFrame="YES" id="jgX-kK-n6M" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="375.0" x="0.0" y="52.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="leading" firstItem="DNU-6U-eUT" id="3Iq-nb-r1F" secondAttribute="leading" secondItem="jgX-kK-n6M"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="DNU-6U-eUT" id="gDv-gu-ozx" secondAttribute="trailing" secondItem="jgX-kK-n6M"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="DNU-6U-eUT" id="l4V-dV-IIc" secondAttribute="top" secondItem="jgX-kK-n6M"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="DNU-6U-eUT" id="IfG-xn-xRZ" secondAttribute="bottom" secondItem="jgX-kK-n6M"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="DNU-6U-eUT" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<constraints>
+<constraint constant="32.0" firstAttribute="leading" firstItem="irH-87-jX6" id="CZl-t7-7Y8" secondAttribute="leading" secondItem="DNU-6U-eUT"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="irH-87-jX6" id="M17-q0-9kg" secondAttribute="top" secondItem="DNU-6U-eUT"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="irH-87-jX6" id="ZwD-iW-NP2" secondAttribute="bottom" secondItem="DNU-6U-eUT"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="W5J-qn-enL" id="gLd-sO-cMP" secondAttribute="trailing" secondItem="DNU-6U-eUT"/>
+<constraint constant="17.0" firstAttribute="top" firstItem="W5J-qn-enL" id="Ql2-h9-yRh" secondAttribute="top" secondItem="DNU-6U-eUT"/>
+<constraint firstAttribute="width" firstItem="W5J-qn-enL" id="Vny-14-MK6" multiplier="0.27466667" secondAttribute="width" secondItem="DNU-6U-eUT"/>
+<constraint firstAttribute="height" firstItem="W5J-qn-enL" id="USH-8S-m0s" multiplier="0.45" secondAttribute="height" secondItem="DNU-6U-eUT"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="irH-87-jX6" image="img_group_103_2" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="60.0" x="32.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="irH-87-jX6" id="IRu-5g-GkV" multiplier="60.0:60.0" secondAttribute="height" secondItem="irH-87-jX6"/>
+<constraint firstAttribute="width" firstItem="irH-87-jX6" id="lsZ-U9-efA" multiplier="60.0:60.0" secondAttribute="height" secondItem="irH-87-jX6"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="W5J-qn-enL" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="27.0" key="frame" width="103.0" x="240.0" y="17.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_personality"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="18"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+</subviews>
+</view>
+</subviews>
+</view>
+<scrollView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" id="nXj-Un-FNE" multipleTouchEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="555.0" key="frame" width="375.0" x="0.0" y="131.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="UnJ-Uc-IAp" id="443-Tw-721" secondAttribute="top" secondItem="nXj-Un-FNE"/>
+<constraint constant="0.0" firstAttribute="bottom" firstItem="UnJ-Uc-IAp" id="GcP-zQ-SvF" secondAttribute="bottom" secondItem="nXj-Un-FNE"/>
+<constraint constant="0.0" firstAttribute="trailing" firstItem="UnJ-Uc-IAp" id="Z5f-er-Eq1" secondAttribute="trailing" secondItem="nXj-Un-FNE"/>
+<constraint constant="0.0" firstAttribute="leading" firstItem="UnJ-Uc-IAp" id="2lY-BY-5Cc" secondAttribute="leading" secondItem="nXj-Un-FNE"/>
+<constraint firstAttribute="width" firstItem="UnJ-Uc-IAp" id="1Lv-7n-FaT" multiplier="1" secondAttribute="width" secondItem="nXj-Un-FNE"/>
+<constraint firstAttribute="height" firstItem="UnJ-Uc-IAp" id="T2V-Z3-2Bd" multiplier="1" priority="250" secondAttribute="height" secondItem="nXj-Un-FNE"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="UnJ-Uc-IAp" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="555.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="top" firstItem="2hL-BW-Idn" id="4q9-Sh-00k" secondAttribute="top" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="0.0" firstAttribute="centerX" firstItem="2hL-BW-Idn" id="JmT-4a-5PR" secondAttribute="centerX" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="65.0" firstAttribute="leading" firstItem="AMC-DN-Lnx" id="TpU-bJ-xXl" secondAttribute="leading" secondItem="NRc-5b-VrM"/>
+<constraint constant="-57.0" firstAttribute="trailing" firstItem="AMC-DN-Lnx" id="ryB-Cd-j5M" secondAttribute="trailing" secondItem="NRc-5b-VrM"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="AMC-DN-Lnx" id="1Tl-NW-Fno" secondAttribute="bottom" secondItem="2hL-BW-Idn"/>
+<constraint constant="72.0" firstAttribute="leading" firstItem="NRc-5b-VrM" id="aKm-9D-SkQ" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-79.0" firstAttribute="trailing" firstItem="NRc-5b-VrM" id="aNV-Tt-rmF" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="6.0" firstAttribute="top" firstItem="NRc-5b-VrM" id="6Za-DM-DrT" secondAttribute="top" secondItem="AMC-DN-Lnx"/>
+<constraint constant="-7.0" firstAttribute="bottom" firstItem="NRc-5b-VrM" id="346-0W-oNR" secondAttribute="bottom" secondItem="AMC-DN-Lnx"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="zkZ-ek-6I8" id="dpi-kz-iHq" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="41.0" firstAttribute="top" firstItem="zkZ-ek-6I8" id="ZME-rv-xC2" secondAttribute="bottom" secondItem="AMC-DN-Lnx"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="o1V-Ca-ycE" id="n9Q-Dg-X8U" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="o1V-Ca-ycE" id="ZC9-WO-8oL" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="o1V-Ca-ycE" id="jJ3-cj-a3d" secondAttribute="bottom" secondItem="zkZ-ek-6I8"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="N8u-hi-TKz" id="MtV-qe-0qG" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="N8u-hi-TKz" id="pnj-VU-TW7" secondAttribute="bottom" secondItem="o1V-Ca-ycE"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="9Pc-Io-MnJ" id="aKQ-R4-iso" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="9Pc-Io-MnJ" id="meE-5n-9PP" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="9Pc-Io-MnJ" id="rsW-t2-Q6u" secondAttribute="bottom" secondItem="N8u-hi-TKz"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="M4f-to-AHL" id="60T-Zc-jjS" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="M4f-to-AHL" id="UtX-Vf-9eI" secondAttribute="bottom" secondItem="9Pc-Io-MnJ"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Kuq-0i-7B4" id="Pvj-SW-gLp" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="Kuq-0i-7B4" id="QjG-Ie-Vxt" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="Kuq-0i-7B4" id="7fo-Zc-gQP" secondAttribute="bottom" secondItem="M4f-to-AHL"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Bk9-M3-YBL" id="QzY-rr-Rn7" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="Bk9-M3-YBL" id="Nfv-IG-6ee" secondAttribute="bottom" secondItem="Kuq-0i-7B4"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Pz4-VF-2YA" id="SOo-aE-tqG" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="Pz4-VF-2YA" id="yp4-iB-1wq" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="Pz4-VF-2YA" id="E0A-1n-n90" secondAttribute="bottom" secondItem="Bk9-M3-YBL"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="pab-PK-pVe" id="tq9-mP-Pc8" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="pab-PK-pVe" id="XOQ-F5-U9q" secondAttribute="bottom" secondItem="Pz4-VF-2YA"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="zAC-4h-adO" id="iaK-JO-woT" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="zAC-4h-adO" id="qqF-U7-UiV" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="zAC-4h-adO" id="9n6-th-Hzy" secondAttribute="bottom" secondItem="pab-PK-pVe"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="7IB-8W-mHS" id="jI0-18-4F7" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="18.0" firstAttribute="top" firstItem="7IB-8W-mHS" id="4XY-nM-R4I" secondAttribute="bottom" secondItem="zAC-4h-adO"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="gw6-L1-pCG" id="FUa-x5-2Uv" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="gw6-L1-pCG" id="kmR-0P-WUW" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="gw6-L1-pCG" id="0nV-tA-Rln" secondAttribute="bottom" secondItem="7IB-8W-mHS"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="g29-Qk-sx1" id="Z1N-II-WRJ" secondAttribute="leading" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="g29-Qk-sx1" id="n8P-Bp-kQh" secondAttribute="trailing" secondItem="UnJ-Uc-IAp"/>
+<constraint constant="34.0" firstAttribute="top" firstItem="g29-Qk-sx1" id="KLY-GZ-6n8" secondAttribute="bottom" secondItem="gw6-L1-pCG"/>
+<constraint constant="80.0" firstAttribute="bottom" firstItem="UnJ-Uc-IAp" id="47T-BQ-9rS" secondAttribute="bottom" secondItem="g29-Qk-sx1"/>
+<constraint firstAttribute="width" firstItem="zkZ-ek-6I8" id="llO-03-9NP" multiplier="0.17333333" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+<constraint firstAttribute="width" firstItem="N8u-hi-TKz" id="lfw-nj-nIE" multiplier="0.176" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+<constraint firstAttribute="width" firstItem="M4f-to-AHL" id="Rle-UW-EH4" multiplier="0.176" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+<constraint firstAttribute="width" firstItem="Bk9-M3-YBL" id="HGf-c0-94y" multiplier="0.10666667" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+<constraint firstAttribute="width" firstItem="pab-PK-pVe" id="bbx-67-9qF" multiplier="0.20266667" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+<constraint firstAttribute="width" firstItem="7IB-8W-mHS" id="iu9-U9-JAX" multiplier="0.13333334" secondAttribute="width" secondItem="UnJ-Uc-IAp"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="2hL-BW-Idn" image="img_11_1" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="139.0" key="frame" width="139.0" x="118.0" y="0.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="69"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="139.0" firstAttribute="height" id="1Uf-3U-87e"/>
+<constraint firstAttribute="width" firstItem="2hL-BW-Idn" id="Q9c-Ln-SDM" multiplier="139.0:139.0" secondAttribute="height" secondItem="2hL-BW-Idn"/>
+<constraint firstAttribute="width" firstItem="2hL-BW-Idn" id="sB7-AL-MCF" multiplier="139.0:139.0" secondAttribute="height" secondItem="2hL-BW-Idn"/>
+</constraints>
+</imageView>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AMC-DN-Lnx" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="33.0" key="frame" width="102.0" x="137.0" y="151.0"/>
+<constraints>
+<constraint constant="33.0" firstAttribute="height" id="9HM-TP-P6p"/>
+</constraints>
+</view>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="NRc-5b-VrM" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="224.0" x="72.0" y="157.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Deeporange500"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_edit_photo"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="zkZ-ek-6I8" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="65.0" x="32.0" y="225.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_username"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="uHC-0r-V0O"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="o1V-Ca-ycE" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="257.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_adalahalcana"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="oGC-lG-W0F"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="257.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="N8u-hi-TKz" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="66.0" x="32.0" y="335.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_first_name"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="4ld-DK-JAk"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="9Pc-Io-MnJ" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="367.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_alcanasatre"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="WXr-pV-jR8"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="367.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="M4f-to-AHL" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="66.0" x="32.0" y="445.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_last_name"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="ILD-Ut-kwO"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="Kuq-0i-7B4" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="477.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_fourta"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="pit-MO-31r"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="477.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="Bk9-M3-YBL" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="40.0" x="32.0" y="555.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_hobby"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="HIt-6s-OSE"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="Pz4-VF-2YA" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="587.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_sleep"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="l3S-Nm-cFz"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="587.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="pab-PK-pVe" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="76.0" x="32.0" y="665.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_date_of_birth"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="Jvn-UQ-jsR"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="zAC-4h-adO" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="697.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_28_may_2002"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="2GE-7C-znj"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="697.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="7IB-8W-mHS" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="50.0" x="32.0" y="775.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_country"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="20.0" firstAttribute="height" id="eSl-3Q-Lhl"/>
+</constraints>
+</label>
+<textField borderStyle="roundedRect" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="leading" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="CustomTextField" fixedFrame="YES" id="gw6-L1-pCG" opaque="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="807.0"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="BorderColorKey" type="color">
+<color key="value" name="Gray900"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderWidth" type="number">
+<integer key="value" value="1"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="10"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="txtPlaceholder" type="string" value="k_Lbl_indonesian2"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="topInset" type="number">
+<real key="value" value="20"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="bottomInset" type="number">
+<real key="value" value="19"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="leftInset" type="number">
+<real key="value" value="24"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="rightInset" type="number">
+<real key="value" value="0"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="tFp-GK-S2b"/>
+</constraints>
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="807.0"/>
+<autoresizingMask flexibleMaxX="true" flexibleMaxY="true" key="autoresizingMask"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<button baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="center" contentMode="left" contentVerticalAlignment="center" fixedFrame="YES" horizontalHuggingPriority="251" id="g29-Qk-sx1" lineBreakMode="tailTruncation" opaque="NO" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="YES" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="901.0"/>
+<color key="backgroundColor" name="Lightblue400"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="ButtonTitle" type="string" value="k_Lbl_change_save"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="16"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<constraints>
+<constraint constant="60.0" firstAttribute="height" id="NZa-2l-5TI"/>
+</constraints>
+<connections>
+<action destination="-1" eventType="touchUpInside" id="6qy-yW-CBI" selector="btnChangeSave:"/>
+</connections>
+<state key="normal">
+<color key="titleColor" name="WhiteA700"/>
+</state>
+</button>
+</subviews>
+</view>
+</subviews>
+<viewLayoutGuide id="xeB-4C-iOP" key="contentLayoutGuide"/>
+<viewLayoutGuide id="ngz-iS-zAM" key="frameLayoutGuide"/>
+</scrollView>
+</subviews>
+<viewLayoutGuide id="Sp6-aN-Prd" key="safeArea"/>
+<point key="canvasLocation" x="0.0" y="0.0"/>
+</view>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<image height="60.0" name="img_group_103_2" width="60.0"/>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA700">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+<namedColor name="Deeporange500">
+<color alpha="1.0" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+<namedColor name="Lightblue400">
+<color alpha="1.0" blue="0.9882353" colorSpace="custom" customColorSpace="sRGB" green="0.7294118" red="0.12941177"/>
+</namedColor>
+</resources>
+</document>
