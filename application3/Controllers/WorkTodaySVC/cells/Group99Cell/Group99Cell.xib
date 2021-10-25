@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner"/>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<tableViewCell clearsContextBeforeDrawing="NO" contentMode="scaleToFill" customClass="Group99Cell" customModuleProvider="target" id="dHe-tz-JKr" indentationWidth="10" rowHeight="86" selectionStyle="default">
+<rect height="57.29" key="frame" width="311.0" x="NaN" y="NaN"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<connections>
+<outlet destination="ibZ-E3-8OF" id="XL8-sn-9wg" property="lblResearchProduc"/>
+<outlet destination="ox2-th-1gK" id="ot8-PR-l6Y" property="img4"/>
+</connections>
+<tableViewCellContentView clipsSubViews="YES" id="zne-aw-Yvg" key="contentView" multipleTouchEnabled="YES" opaque="NO" tableViewCell="dHe-tz-JKr">
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ern-y1-YXf" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="26.73999" key="frame" width="256.0" x="28.0" y="15.279999"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="leading" firstItem="ftS-KY-6Zh" id="XUd-3J-czI" secondAttribute="leading" secondItem="Ern-y1-YXf"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="ftS-KY-6Zh" id="6Ia-Sj-ozC" secondAttribute="top" secondItem="Ern-y1-YXf"/>
+<constraint constant="-0.0" firstAttribute="bottom" firstItem="ftS-KY-6Zh" id="2Kf-kd-w9o" secondAttribute="bottom" secondItem="Ern-y1-YXf"/>
+<constraint constant="24.0" firstAttribute="leading" firstItem="ibZ-E3-8OF" id="Ase-y2-sym" secondAttribute="trailing" secondItem="ftS-KY-6Zh"/>
+<constraint constant="3.769989" firstAttribute="top" firstItem="ibZ-E3-8OF" id="9Vq-st-Lcc" secondAttribute="top" secondItem="ftS-KY-6Zh"/>
+<constraint constant="-2.9200134" firstAttribute="bottom" firstItem="ibZ-E3-8OF" id="621-j2-pv3" secondAttribute="bottom" secondItem="ftS-KY-6Zh"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="ox2-th-1gK" id="iW8-To-Xoj" secondAttribute="trailing" secondItem="Ern-y1-YXf"/>
+<constraint constant="6.730011" firstAttribute="top" firstItem="ox2-th-1gK" id="v4V-Ex-6kL" secondAttribute="top" secondItem="ibZ-E3-8OF"/>
+<constraint firstAttribute="width" firstItem="ftS-KY-6Zh" id="S0c-WY-BAb" multiplier="0.109375" secondAttribute="width" secondItem="Ern-y1-YXf"/>
+<constraint firstAttribute="width" firstItem="ibZ-E3-8OF" id="SfG-xd-B4q" multiplier="0.671875" secondAttribute="width" secondItem="Ern-y1-YXf"/>
+<constraint firstAttribute="height" firstItem="ox2-th-1gK" id="U23-2l-3s3" multiplier="0.21428579" secondAttribute="height" secondItem="Ern-y1-YXf"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ftS-KY-6Zh" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="26.74" key="frame" width="28.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="Deeporange5006c"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="6"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</view>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="ibZ-E3-8OF" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.05" key="frame" width="172.0" x="52.0" y="3.769989"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_research_produc"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsRegular"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="ox2-th-1gK" image="img_arrow__right_5" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="5.73" key="frame" width="3.0" x="253.0" y="10.5"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="ox2-th-1gK" id="cv8-vY-za4" multiplier="3.0:5.73" secondAttribute="height" secondItem="ox2-th-1gK"/>
+</constraints>
+</imageView>
+</subviews>
+</view>
+</subviews>
+<constraints>
+<constraint constant="28.0" firstAttribute="leading" firstItem="Ern-y1-YXf" id="7Z9-gM-2di" secondAttribute="leading" secondItem="zne-aw-Yvg"/>
+<constraint constant="-27.0" firstAttribute="trailing" firstItem="Ern-y1-YXf" id="K2W-4M-bud" secondAttribute="trailing" secondItem="zne-aw-Yvg"/>
+<constraint constant="15.279999" firstAttribute="top" firstItem="Ern-y1-YXf" id="FyE-dR-Jol" secondAttribute="top" secondItem="zne-aw-Yvg"/>
+<constraint constant="-15.27002" firstAttribute="bottom" firstItem="Ern-y1-YXf" id="ztG-YX-inK" secondAttribute="bottom" secondItem="zne-aw-Yvg"/>
+<constraint firstAttribute="width" firstItem="Ern-y1-YXf" id="ywZ-Dy-nSE" multiplier="0.8231511" secondAttribute="width" secondItem="zne-aw-Yvg"/>
+<constraint firstAttribute="height" firstItem="Ern-y1-YXf" id="y9W-MX-p11" multiplier="0.46674794" secondAttribute="height" secondItem="zne-aw-Yvg"/>
+</constraints>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="string" type="id"/>
+</userDefinedRuntimeAttributes>
+<color key="backgroundColor" name="WhiteA7007e"/>
+</tableViewCellContentView>
+</tableViewCell>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA7007e">
+<color alpha="0.49411765" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Deeporange5006c">
+<color alpha="0.42352942" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+</resources>
+</document>

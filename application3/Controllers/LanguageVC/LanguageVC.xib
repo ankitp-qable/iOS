@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder customClass="LanguageVC" customModule="LanguageVC" customModuleProvider="target" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+<connections>
+<outlet destination="txG-3x-fGd" id="DfS-sq-Utw" property="view"/>
+<outlet destination="yc1-Hx-etE" id="1I0-rI-WSw" property="img1"/>
+<outlet destination="CeG-WU-gRv" id="IKd-U2-mou" property="lblLanguage"/>
+<outlet destination="ba1-4m-UKB" id="f64-kT-Z3J" property="lblYourSettingsS"/>
+<outlet destination="Hno-Bf-0fK" id="CBC-0m-Hka" property="btnIndonesian"/>
+<outlet destination="yBD-Mf-FRv" id="TYK-EP-sYo" property="btnEnglish"/>
+<outlet destination="0Dg-f8-tdA" id="PQd-4c-tvk" property="btnSave"/>
+</connections>
+</placeholder>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="txG-3x-fGd">
+<rect height="667.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="32.0" firstAttribute="leading" firstItem="yc1-Hx-etE" id="hnE-q0-e46" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="52.0" firstAttribute="top" firstItem="yc1-Hx-etE" id="TvU-gM-Uln" secondAttribute="top" secondItem="11S-I0-pzW"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="CeG-WU-gRv" id="nkB-E4-ZgM" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="-76.0" firstAttribute="trailing" firstItem="CeG-WU-gRv" id="5Sj-Cx-aS6" secondAttribute="trailing" secondItem="txG-3x-fGd"/>
+<constraint constant="35.0" firstAttribute="top" firstItem="CeG-WU-gRv" id="Pot-B3-OX4" secondAttribute="bottom" secondItem="yc1-Hx-etE"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="ba1-4m-UKB" id="G1E-lu-PVH" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="12.0" firstAttribute="top" firstItem="ba1-4m-UKB" id="wLJ-8d-Lns" secondAttribute="bottom" secondItem="CeG-WU-gRv"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Hno-Bf-0fK" id="86u-Vb-zGB" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="Hno-Bf-0fK" id="FT7-TH-s2K" secondAttribute="trailing" secondItem="txG-3x-fGd"/>
+<constraint constant="87.0" firstAttribute="top" firstItem="Hno-Bf-0fK" id="jiv-dC-K5z" secondAttribute="bottom" secondItem="ba1-4m-UKB"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="yBD-Mf-FRv" id="4Zn-3p-8xu" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="yBD-Mf-FRv" id="hss-GX-Kvf" secondAttribute="trailing" secondItem="txG-3x-fGd"/>
+<constraint constant="14.0" firstAttribute="top" firstItem="yBD-Mf-FRv" id="peY-Ib-nLZ" secondAttribute="bottom" secondItem="Hno-Bf-0fK"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="0Dg-f8-tdA" id="P1s-36-d9B" secondAttribute="leading" secondItem="txG-3x-fGd"/>
+<constraint constant="-32.0" firstAttribute="trailing" firstItem="0Dg-f8-tdA" id="jaQ-m1-hLs" secondAttribute="trailing" secondItem="txG-3x-fGd"/>
+<constraint constant="243.0" firstAttribute="top" firstItem="0Dg-f8-tdA" id="Dz0-9t-o6d" secondAttribute="bottom" secondItem="yBD-Mf-FRv"/>
+<constraint firstAttribute="width" firstItem="ba1-4m-UKB" id="r7G-IQ-Tkj" multiplier="0.66933334" secondAttribute="width" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="yc1-Hx-etE" id="4p9-6I-unP" multiplier="0.089955024" secondAttribute="height" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="CeG-WU-gRv" id="KOz-lz-ZuB" multiplier="0.056971513" secondAttribute="height" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="ba1-4m-UKB" id="7PW-Mw-W8x" multiplier="0.029985007" secondAttribute="height" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="Hno-Bf-0fK" id="if4-AL-W53" multiplier="0.089955024" secondAttribute="height" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="yBD-Mf-FRv" id="5S4-IW-urD" multiplier="0.089955024" secondAttribute="height" secondItem="txG-3x-fGd"/>
+<constraint firstAttribute="height" firstItem="0Dg-f8-tdA" id="pvW-EV-v4S" multiplier="0.089955024" secondAttribute="height" secondItem="txG-3x-fGd"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="yc1-Hx-etE" image="img_group_32" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="60.0" x="32.0" y="52.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="yc1-Hx-etE" id="Md0-eg-YOm" multiplier="60.0:60.0" secondAttribute="height" secondItem="yc1-Hx-etE"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="CeG-WU-gRv" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="38.0" key="frame" width="267.0" x="32.0" y="147.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Lbl_language"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="28"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="ba1-4m-UKB" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="20.0" key="frame" width="251.0" x="32.0" y="197.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_your_settings_s"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+<button baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="center" contentMode="left" contentVerticalAlignment="center" fixedFrame="YES" horizontalHuggingPriority="251" id="Hno-Bf-0fK" lineBreakMode="tailTruncation" opaque="NO" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="YES" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="304.0"/>
+<color key="backgroundColor" name="Deeporange5005e"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="ButtonTitle" type="string" value="k_Lbl_indonesian"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<connections>
+<action destination="-1" eventType="touchUpInside" id="lZk-zK-Uu1" selector="btnIndonesian:"/>
+</connections>
+<state key="normal">
+<color key="titleColor" name="Deeporange500"/>
+</state>
+</button>
+<button baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="center" contentMode="left" contentVerticalAlignment="center" fixedFrame="YES" horizontalHuggingPriority="251" id="yBD-Mf-FRv" lineBreakMode="tailTruncation" opaque="NO" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="YES" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="378.0"/>
+<color key="backgroundColor" name="DeeppurpleA4005e"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="ButtonTitle" type="string" value="k_Lbl_english"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsMedium"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<connections>
+<action destination="-1" eventType="touchUpInside" id="9qu-AI-yFp" selector="btnEnglish:"/>
+</connections>
+<state key="normal">
+<color key="titleColor" name="DeeppurpleA400"/>
+</state>
+</button>
+<button baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentHorizontalAlignment="center" contentMode="left" contentVerticalAlignment="center" fixedFrame="YES" horizontalHuggingPriority="251" id="0Dg-f8-tdA" lineBreakMode="tailTruncation" opaque="NO" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="YES" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="311.0" x="32.0" y="681.0"/>
+<color key="backgroundColor" name="Lightblue400"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="cornerRadius" type="number">
+<integer key="value" value="14"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="ButtonTitle" type="string" value="k_Lbl_save"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="16"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+<connections>
+<action destination="-1" eventType="touchUpInside" id="AOw-xp-gT4" selector="btnSave:"/>
+</connections>
+<state key="normal">
+<color key="titleColor" name="WhiteA700"/>
+</state>
+</button>
+</subviews>
+<viewLayoutGuide id="11S-I0-pzW" key="safeArea"/>
+<point key="canvasLocation" x="0.0" y="0.0"/>
+</view>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<image height="60.0" name="img_group_32" width="60.0"/>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA700">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+<namedColor name="Deeporange5005e">
+<color alpha="0.36862746" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+<namedColor name="Deeporange500">
+<color alpha="1.0" blue="0.12941177" colorSpace="custom" customColorSpace="sRGB" green="0.41960785" red="0.9882353"/>
+</namedColor>
+<namedColor name="DeeppurpleA4005e">
+<color alpha="0.36862746" blue="0.98039216" colorSpace="custom" customColorSpace="sRGB" green="0.21176471" red="0.34901962"/>
+</namedColor>
+<namedColor name="DeeppurpleA400">
+<color alpha="1.0" blue="0.98039216" colorSpace="custom" customColorSpace="sRGB" green="0.21176471" red="0.34901962"/>
+</namedColor>
+<namedColor name="Lightblue400">
+<color alpha="1.0" blue="0.9882353" colorSpace="custom" customColorSpace="sRGB" green="0.7294118" red="0.12941177"/>
+</namedColor>
+</resources>
+</document>

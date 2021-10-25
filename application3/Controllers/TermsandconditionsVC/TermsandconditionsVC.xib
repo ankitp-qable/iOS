@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><document colorMatched="YES" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="157702" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" useSafeAreas="YES" useTraitCollections="YES" version="3.0">
+<objects>
+<placeholder customClass="TermsandconditionsVC" customModule="TermsandconditionsVC" customModuleProvider="target" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+<connections>
+<outlet destination="cjW-Td-BG4" id="c7o-fV-ITJ" property="view"/>
+<outlet destination="cqO-Th-qa9" id="WV0-OR-zKf" property="img2"/>
+<outlet destination="3Ra-G0-3vJ" id="63H-R5-ixW" property="lblTermsAndCondi"/>
+<outlet destination="Y9k-AG-bfj" id="jeU-S6-je2" property="lblLoremIpsumDol"/>
+</connections>
+</placeholder>
+<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cjW-Td-BG4">
+<rect height="667.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="0.0" firstAttribute="leading" firstItem="16s-Pw-yPL" id="YdJ-74-T9q" secondAttribute="leading" secondItem="cjW-Td-BG4"/>
+<constraint constant="-0.0" firstAttribute="trailing" firstItem="16s-Pw-yPL" id="s8a-IW-JCP" secondAttribute="trailing" secondItem="cjW-Td-BG4"/>
+<constraint constant="0.0" firstAttribute="top" firstItem="16s-Pw-yPL" id="bFc-SD-QOI" secondAttribute="top" secondItem="Moe-gG-oKd"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="Y9k-AG-bfj" id="0qh-gO-1xX" secondAttribute="leading" secondItem="cjW-Td-BG4"/>
+<constraint constant="-55.0" firstAttribute="trailing" firstItem="Y9k-AG-bfj" id="c9M-UH-D18" secondAttribute="trailing" secondItem="cjW-Td-BG4"/>
+<constraint constant="54.0" firstAttribute="top" firstItem="Y9k-AG-bfj" id="4mH-sz-YhM" secondAttribute="bottom" secondItem="16s-Pw-yPL"/>
+<constraint firstAttribute="height" firstItem="16s-Pw-yPL" id="m9H-pL-W55" multiplier="0.34332833" secondAttribute="height" secondItem="cjW-Td-BG4"/>
+<constraint firstAttribute="height" firstItem="Y9k-AG-bfj" id="Afx-33-GfT" multiplier="0.7196402" secondAttribute="height" secondItem="cjW-Td-BG4"/>
+</constraints>
+<subviews>
+<view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="16s-Pw-yPL" translatesAutoresizingMaskIntoConstraints="NO">
+<rect height="229.0" key="frame" width="375.0" x="0.0" y="0.0"/>
+<color key="backgroundColor" name="WhiteA700"/>
+<constraints>
+<constraint constant="32.0" firstAttribute="leading" firstItem="cqO-Th-qa9" id="pyj-fr-9pQ" secondAttribute="leading" secondItem="16s-Pw-yPL"/>
+<constraint constant="59.0" firstAttribute="top" firstItem="cqO-Th-qa9" id="HQl-s7-hgT" secondAttribute="top" secondItem="16s-Pw-yPL"/>
+<constraint constant="32.0" firstAttribute="leading" firstItem="3Ra-G0-3vJ" id="yYk-wt-RLR" secondAttribute="leading" secondItem="16s-Pw-yPL"/>
+<constraint constant="-76.0" firstAttribute="trailing" firstItem="3Ra-G0-3vJ" id="6Wu-eh-FQ4" secondAttribute="trailing" secondItem="16s-Pw-yPL"/>
+<constraint constant="28.0" firstAttribute="top" firstItem="3Ra-G0-3vJ" id="p64-r3-oc3" secondAttribute="bottom" secondItem="cqO-Th-qa9"/>
+<constraint firstAttribute="height" firstItem="cqO-Th-qa9" id="Dlu-St-plZ" multiplier="0.26200873" secondAttribute="height" secondItem="16s-Pw-yPL"/>
+<constraint firstAttribute="height" firstItem="3Ra-G0-3vJ" id="gKf-rW-0YI" multiplier="0.33187774" secondAttribute="height" secondItem="16s-Pw-yPL"/>
+</constraints>
+<subviews>
+<imageView clearsContextBeforeDrawing="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" horizontalHuggingPriority="251" id="cqO-Th-qa9" image="img_group_32" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="60.0" key="frame" width="60.0" x="32.0" y="59.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<constraints>
+<constraint firstAttribute="width" firstItem="cqO-Th-qa9" id="aSa-4Q-W9a" multiplier="60.0:60.0" secondAttribute="height" secondItem="cqO-Th-qa9"/>
+</constraints>
+</imageView>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="3Ra-G0-3vJ" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="76.0" key="frame" width="267.0" x="32.0" y="147.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_terms_and_condi"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsSemiBold"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="28"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+</subviews>
+</view>
+<label baselineAdjustment="alignBaselines" clearsContextBeforeDrawing="NO" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="Y9k-AG-bfj" lineBreakMode="tailTruncation" numberOfLines="0" opaque="NO" textAlignment="left" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+<rect height="480.0" key="frame" width="288.0" x="32.0" y="283.0"/>
+<color alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" key="backgroundColor" white="0.0"/>
+<color key="textColor" name="Gray900"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute keyPath="LabelText" type="string" value="k_Msg_lorem_ipsum_dol2"/>
+<userDefinedRuntimeAttribute keyPath="FontName" type="string" value="kPoppinsRegular"/>
+<userDefinedRuntimeAttribute keyPath="FontSize" type="number">
+<integer key="value" value="12"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+</label>
+</subviews>
+<viewLayoutGuide id="Moe-gG-oKd" key="safeArea"/>
+<point key="canvasLocation" x="0.0" y="0.0"/>
+</view>
+</objects>
+<device appearance="light" id="retina4_7" orientation="portrait"/>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+<capability minToolsVersion="9.0" name="Safe area layout guides"/>
+<capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+<capability minToolsVersion="8.0" name="Named colors"/>
+</dependencies>
+<resources>
+<image height="60.0" name="img_group_32" width="60.0"/>
+<namedColor name="DefaultColor">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="WhiteA700">
+<color alpha="1.0" blue="1.0" colorSpace="custom" customColorSpace="sRGB" green="1.0" red="1.0"/>
+</namedColor>
+<namedColor name="Gray900">
+<color alpha="1.0" blue="0.1882353" colorSpace="custom" customColorSpace="sRGB" green="0.12156863" red="0.10980392"/>
+</namedColor>
+</resources>
+</document>
